@@ -11,9 +11,9 @@ import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 
 @Configuration
-@EnableAutoConfiguration(exclude = {
-        JpaRepositoriesAutoConfiguration.class
-})
+//@EnableAutoConfiguration(exclude = {
+//        JpaRepositoriesAutoConfiguration.class
+//})
 public class Config {
 
     @Value("${spring.datasource.url}")
